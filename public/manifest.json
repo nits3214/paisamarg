@@ -1,0 +1,46 @@
+{
+  "name": "PaisaMarg \u2014 Smart Money Calculators",
+  "short_name": "PaisaMarg",
+  "description": "Free personal finance calculators for India \u2014 EMI, SIP, PPF, FIRE, Salary and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#00d09c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "finance",
+    "utilities"
+  ],
+  "lang": "en-IN",
+  "shortcuts": [
+    {
+      "name": "EMI Calculator",
+      "url": "/?calc=emi",
+      "description": "Calculate loan EMI"
+    },
+    {
+      "name": "SIP Calculator",
+      "url": "/?calc=sip",
+      "description": "Calculate SIP returns"
+    },
+    {
+      "name": "FIRE Planner",
+      "url": "/?calc=fire",
+      "description": "Plan your retirement"
+    }
+  ]
+}
